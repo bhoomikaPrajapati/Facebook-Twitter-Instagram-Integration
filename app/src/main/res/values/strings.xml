@@ -1,0 +1,17 @@
+<resources>
+
+    <string name="app_name">DemoApp</string>
+    <string name="facebook_app_id">1411570365588216</string>
+    <string name="fb_login_protocol_scheme">fb1411570365588216</string>
+
+
+    <!-- <string name="com.twitter.sdk.android.CONSUMER_KEY">iGKE3ZFXIt4i1TWQFdpr4BIHn</string>
+     <string name="com.twitter.sdk.android.CONSUMER_SECRET">lkK0kaCA9uPLcGgGdL15CHVKblOcnxk32K0smNJTQHR21Vom2v</string>-->
+
+
+    <!--<string name="consumer_key">iGKE3ZFXIt4i1TWQFdpr4BIHn</string>-->
+    <string name="consumer_secret">e6PKB8Jn1EQqMPVrDEBK9Sjl9YD9Ev0FCF0HoOHI</string>
+    <string name="consumer_key">pVF2gAu6ZPb4Tm8h9nq1xg</string>
+
+
+</resources>

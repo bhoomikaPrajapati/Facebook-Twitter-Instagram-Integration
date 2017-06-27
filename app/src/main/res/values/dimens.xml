@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--text size-->
+    <dimen name="reguler_text">25sp</dimen>
+
+    <!--padding size-->
+
+</resources>

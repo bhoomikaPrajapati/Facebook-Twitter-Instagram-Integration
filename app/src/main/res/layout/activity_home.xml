@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvFacebook"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:padding="20dp"
+        android:textColor="@color/colorPrimary"
+        android:text="Facebook"/>
+
+
+
+    <TextView
+        android:id="@+id/tvTwitter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:padding="20dp"
+        android:textColor="@android:color/holo_blue_light"
+        android:text="Twitter"/>
+
+
+    <TextView
+        android:id="@+id/tvInstagram"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:padding="20dp"
+        android:textColor="#5F3F40"
+        android:text="Instagram"/>
+
+
+</LinearLayout>
