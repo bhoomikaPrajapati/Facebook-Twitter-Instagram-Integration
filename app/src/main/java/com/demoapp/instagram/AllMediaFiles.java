@@ -12,9 +12,6 @@ import android.widget.Toast;
 
 import com.demoapp.R;
 
-import org.json.JSONArray;
-import org.json.JSONObject;
-
 import java.util.ArrayList;
 import java.util.HashMap;
 
@@ -69,7 +66,7 @@ public class AllMediaFiles extends Activity {
 
 			@Override
 			public void run() {
-				int what = WHAT_FINALIZE;
+				/*int what = WHAT_FINALIZE;
 				try {
 					// URL url = new URL(mTokenUrl + "&code=" + code);
 					JSONParser jsonParser = new JSONParser();
@@ -106,7 +103,7 @@ public class AllMediaFiles extends Activity {
 					what = WHAT_ERROR;
 				}
 				// pd.dismiss();
-				handler.sendEmptyMessage(what);
+				handler.sendEmptyMessage(what);*/
 			}
 		}).start();
 	}

@@ -82,7 +82,7 @@ public class FacebookLoginActivity extends Activity implements View.OnClickListe
     private void getPostDetail(String userId) {
         Bundle params = new Bundle();
         params.putString("fields", "message,created_time,id,full_picture,status_type,source,comments.summary(true),likes.summary(true)");
-        params.putString("limit", "15");
+        params.putString("limit", "55");
 
         /* make the API call */
         new GraphRequest(AccessToken.getCurrentAccessToken(), "/" + userId + "/posts", params, HttpMethod.GET,
